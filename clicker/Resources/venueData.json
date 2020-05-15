@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1001",
+        "name": "Cafe String",
+        "imageName": "fury",
+        "category": "Café",
+        "coordinates": {
+            "latitude": 59.3133379,
+            "longitude": 18.0798749
+        }
+    },
+    {
+        "id": "1002",
+        "name": "Trdgrden",
+        "imageName": "fury",
+        "category": "Club",
+        "coordinates": {
+        "latitude": 59.3133379,
+        "longitude": 18.0748749
+        }
+        
+    },
+    {
+        "id": "1003",
+        "name": "Crazy Horse",
+        "imageName": "fury",
+        "category": "Bar",
+        "coordinates": {
+        "latitude": 59.3233379,
+        "longitude": 18.0798749
+        }
+    },
+    {
+        "id": "1004",
+        "name": "Trdgrden",
+        "imageName": "fury",
+        "category": "Club",
+        "coordinates": {
+        "latitude": 59.3133379,
+        "longitude": 18.0748749
+        }
+        
+    },
+    {
+        "id": "1005",
+        "name": "Trdgrden",
+        "imageName": "fury",
+        "category": "Club",
+        "coordinates": {
+        "latitude": 59.3133379,
+        "longitude": 18.0748749
+        }
+        
+    },
+    {
+        "id": "1006",
+        "name": "Trdgrden",
+        "imageName": "fury",
+        "category": "Club",
+        "coordinates": {
+        "latitude": 59.3133379,
+        "longitude": 18.0748749
+        }
+        
+    },{
+        "id": "1007",
+        "name": "Trdgrden",
+        "imageName": "fury",
+        "category": "Club",
+        "coordinates": {
+        "latitude": 59.3133379,
+        "longitude": 18.0748749
+        }
+        
+    },
+    
+]
