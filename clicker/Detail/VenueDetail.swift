@@ -15,6 +15,7 @@ struct VenueDetail: View {
     var venue: Venue
     var bookmarkIcon = "bookmark"
     var iconConfiguration = UIImage.SymbolConfiguration(pointSize: 18, weight: .medium, scale: .default)
+    var placeHolderUser: User
     var body: some View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)

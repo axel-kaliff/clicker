@@ -22,10 +22,6 @@ struct CircleImage: View {
             .shadow(radius: 5)
         )
         
-        
-
-            
-        
     }
 }
 

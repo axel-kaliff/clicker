@@ -10,6 +10,7 @@
 		F021E33C245458B5004D1962 /* venueData.json in Resources */ = {isa = PBXBuildFile; fileRef = F021E33B245458B5004D1962 /* venueData.json */; };
 		F021E33F245465C3004D1962 /* venueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021E33E245465C3004D1962 /* venueData.swift */; };
 		F021E34524549B75004D1962 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021E34424549B75004D1962 /* DiscoverView.swift */; };
+		F0270C8F2623122200E434BC /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0270C8E2623122200E434BC /* Venue.swift */; };
 		F033765224CDC3290015EA83 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033765124CDC3290015EA83 /* ChangePasswordView.swift */; };
 		F034984324B8CEA3007B1F23 /* VenueRowBig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034984224B8CEA3007B1F23 /* VenueRowBig.swift */; };
 		F034984524B8D266007B1F23 /* VenueRowBigItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034984424B8D266007B1F23 /* VenueRowBigItem.swift */; };
@@ -64,6 +65,7 @@
 		F021E33B245458B5004D1962 /* venueData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = venueData.json; sourceTree = "<group>"; };
 		F021E33E245465C3004D1962 /* venueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venueData.swift; sourceTree = "<group>"; };
 		F021E34424549B75004D1962 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		F0270C8E2623122200E434BC /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		F033765124CDC3290015EA83 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
 		F034984224B8CEA3007B1F23 /* VenueRowBig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRowBig.swift; sourceTree = "<group>"; };
 		F034984424B8D266007B1F23 /* VenueRowBigItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRowBigItem.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				F021E33E245465C3004D1962 /* venueData.swift */,
+				F0270C8E2623122200E434BC /* Venue.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				F0CF5E9424D178A0009B9EDB /* BookmarkButton.swift in Sources */,
 				F04E2CC124D5DC51008003AF /* PersistenceManager.swift in Sources */,
 				F0CF5E9024D0402D009B9EDB /* ChangeUsername.swift in Sources */,
+				F0270C8F2623122200E434BC /* Venue.swift in Sources */,
 				F034984724B9BD3B007B1F23 /* VenueRowSmall.swift in Sources */,
 				F0C62B4E24BC7F00005C1FFB /* MainView.swift in Sources */,
 				F0884E1124CB1E7300C2FB20 /* GuestAmountRow.swift in Sources */,
