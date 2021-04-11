@@ -31,6 +31,6 @@ struct CircleImage: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: Image("fury"))
+        CircleImage(image: Image("tux"))
     }
 }

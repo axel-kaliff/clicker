@@ -11,10 +11,24 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = UIColor(red: 0.17, green: 0.16, blue: 0.16, alpha: 1.00)
+        
+        
+        let attrs: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.white,
+            .font: UIFont.boldSystemFont(ofSize: 36)
+            
+        ]
+        
+        appearance.largeTitleTextAttributes = attrs
+        
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        
         return true
     }
 

@@ -1,76 +1,91 @@
 [
     {
         "id": "1001",
+        "starts_now": "yes",
         "name": "Cafe String",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Café",
         "coordinates": {
             "latitude": 59.3133379,
             "longitude": 18.0798749
-        }
+        },
+        "isFavorite": true
     },
     {
         "id": "1002",
+        "starts_now": "yes",
         "name": "Trdgrden",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Club",
         "coordinates": {
         "latitude": 59.3133379,
         "longitude": 18.0748749
-        }
+        },
+        "isFavorite": false
+        
         
     },
     {
         "id": "1003",
+        "starts_now": "yes",
         "name": "Crazy Horse",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Bar",
         "coordinates": {
         "latitude": 59.3233379,
         "longitude": 18.0798749
-        }
+        },
+        "isFavorite": false
     },
     {
         "id": "1004",
+        "starts_now": "no",
         "name": "Trdgrden",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Club",
         "coordinates": {
         "latitude": 59.3133379,
         "longitude": 18.0748749
-        }
+        },
+        "isFavorite": false
         
     },
     {
         "id": "1005",
+        "starts_now": "no",
         "name": "Trdgrden",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Club",
         "coordinates": {
         "latitude": 59.3133379,
         "longitude": 18.0748749
-        }
+        },
+        "isFavorite": false
         
     },
     {
         "id": "1006",
+        "starts_now": "no",
         "name": "Trdgrden",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Club",
         "coordinates": {
         "latitude": 59.3133379,
         "longitude": 18.0748749
-        }
+        },
+        "isFavorite": false
         
     },{
         "id": "1007",
+        "starts_now": "no",
         "name": "Trdgrden",
-        "imageName": "fury",
+        "imageName": "tux",
         "category": "Club",
         "coordinates": {
         "latitude": 59.3133379,
         "longitude": 18.0748749
-        }
+        },
+        "isFavorite": false
         
     },
     

@@ -22,7 +22,7 @@ struct VenueRow: View {
             Text(venue.name)
             Spacer()
         }
-    
+        .listRowBackground(Color.black)
         
         
         

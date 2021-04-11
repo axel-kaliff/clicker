@@ -1,44 +1,58 @@
 //
-//  mainView.swift
+//  MainView.swift
 //  clicker
 //
-//  Created by Axel Kaliff on 2020-04-25.
+//  Created by Axel Kaliff on 2020-07-13.
 //  Copyright © 2020 Axel Kaliff. All rights reserved.
 //
 
 import SwiftUI
 
-struct mainView: View {
-    var venue: Venue
+@available(iOS 14.0, *)
+struct MainView: View {
+    
+    let persistence = PersistenceManager()
+
+    
+    var iconConfiguration = UIImage.SymbolConfiguration(pointSize: 21, weight: .bold, scale: .large)
     var body: some View {
         
-        VStack {
-            
-        mapView(coordinate: venue.locationCoordinate)
-          .edgesIgnoringSafeArea(.top)
-          .frame(height: 300)
-          .offset(y: 0)
-            
-        NavigationView {
-            List(venueData) { venue in
-                NavigationLink(destination: VenueDetail(venue: venue)) {
-                    VenueRow(venue: venue)
-                }
-            }
-            .navigationBarTitle(Text("Venues"))
-            .environment(\.defaultMinListRowHeight, 100)
-        }
-        }
         
+        ZStack {
+            Color.black.edgesIgnoringSafeArea(.all)
+            TabView {
+                
+                DiscoverView()
+                    .tabItem {
+                        Image(uiImage: UIImage(systemName: "eyes", withConfiguration: iconConfiguration)!)
+                    }
+                
+                
+                
+                HomeView()
+                    .tabItem {
+                        Image(uiImage: UIImage(systemName: "heart.fill", withConfiguration: iconConfiguration)!)
+                    }
+                
+                
+            }
+            .colorScheme(.dark)
+            .accentColor(uistandard.color)
+        }.background(Color.black)
     }
 }
 
-struct mainView_Previews: PreviewProvider {
+
+@available(iOS 14.0, *)
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone X"], id: \.self) { deviceName in
-            mainView(venue: venueData[0])
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
+        Group {
+            ForEach(["iPhone X"], id: \.self) { deviceName in
+                MainView()
+                    .previewDevice(PreviewDevice(rawValue: deviceName))
+                    .previewDisplayName(deviceName)
+            }
+            
         }
     }
 }

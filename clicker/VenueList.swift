@@ -10,15 +10,24 @@ import SwiftUI
 
 struct VenueList: View {
     var body: some View {
+        
+        
         NavigationView {
+            
+            
             List(venueData) { venue in
+                
                 NavigationLink(destination: VenueDetail(venue: venue)) {
                     VenueRow(venue: venue)
                 }
             }
+//            .foregroundColor(.white)
+                
             .navigationBarTitle(Text("Venues"))
             .environment(\.defaultMinListRowHeight, 100)
+        
         }
+        
     }
 }
 
