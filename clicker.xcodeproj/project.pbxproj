@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F017A8ED24B3570900D8992A /* tux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F017A8EC24B3570900D8992A /* tux.jpg */; };
 		F021E33C245458B5004D1962 /* venueData.json in Resources */ = {isa = PBXBuildFile; fileRef = F021E33B245458B5004D1962 /* venueData.json */; };
 		F021E33F245465C3004D1962 /* venueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021E33E245465C3004D1962 /* venueData.swift */; };
 		F021E34524549B75004D1962 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021E34424549B75004D1962 /* DiscoverView.swift */; };
@@ -21,7 +20,6 @@
 		F04E2CC124D5DC51008003AF /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E2CC024D5DC51008003AF /* PersistenceManager.swift */; };
 		F057B87F24CD7E960020EDF1 /* UIStandards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057B87E24CD7E960020EDF1 /* UIStandards.swift */; };
 		F062095E24C0CC1D009DBFA0 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062095D24C0CC1D009DBFA0 /* DetailRow.swift */; };
-		F079FC8624CF21A800F0A2FB /* fulltextIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F079FC8524CF21A800F0A2FB /* fulltextIcon.png */; };
 		F0884E1124CB1E7300C2FB20 /* GuestAmountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0884E1024CB1E7300C2FB20 /* GuestAmountRow.swift */; };
 		F0884E1424CB34B000C2FB20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0884E1324CB34B000C2FB20 /* SettingsView.swift */; };
 		F0AE102824CE40A0000E2AEC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AE102724CE40A0000E2AEC /* SignInView.swift */; };
@@ -63,7 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F017A8EC24B3570900D8992A /* tux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tux.jpg; path = ../../../../Downloads/tux.jpg; sourceTree = "<group>"; };
 		F021E33B245458B5004D1962 /* venueData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = venueData.json; sourceTree = "<group>"; };
 		F021E33E245465C3004D1962 /* venueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venueData.swift; sourceTree = "<group>"; };
 		F021E34424549B75004D1962 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -77,7 +74,6 @@
 		F04E2CC024D5DC51008003AF /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		F057B87E24CD7E960020EDF1 /* UIStandards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStandards.swift; sourceTree = "<group>"; };
 		F062095D24C0CC1D009DBFA0 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
-		F079FC8524CF21A800F0A2FB /* fulltextIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fulltextIcon.png; path = ../../../fulltextIcon.png; sourceTree = "<group>"; };
 		F0884E1024CB1E7300C2FB20 /* GuestAmountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestAmountRow.swift; sourceTree = "<group>"; };
 		F0884E1324CB34B000C2FB20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F0AE102724CE40A0000E2AEC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -152,8 +148,6 @@
 		F051EE552454562700DCA37A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F079FC8524CF21A800F0A2FB /* fulltextIcon.png */,
-				F017A8EC24B3570900D8992A /* tux.jpg */,
 				F021E33B245458B5004D1962 /* venueData.json */,
 			);
 			path = Resources;
@@ -381,11 +375,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F079FC8624CF21A800F0A2FB /* fulltextIcon.png in Resources */,
 				F0B7055F245352CE0072077A /* LaunchScreen.storyboard in Resources */,
 				F0B7055C245352CE0072077A /* Preview Assets.xcassets in Resources */,
 				F0B70559245352CE0072077A /* Assets.xcassets in Resources */,
-				F017A8ED24B3570900D8992A /* tux.jpg in Resources */,
 				F021E33C245458B5004D1962 /* venueData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
