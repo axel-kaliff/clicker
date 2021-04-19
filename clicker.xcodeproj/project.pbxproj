@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F009BBEE26231847006C85FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009BBED26231847006C85FA /* User.swift */; };
 		F021E33C245458B5004D1962 /* venueData.json in Resources */ = {isa = PBXBuildFile; fileRef = F021E33B245458B5004D1962 /* venueData.json */; };
 		F021E33F245465C3004D1962 /* venueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021E33E245465C3004D1962 /* venueData.swift */; };
 		F021E34524549B75004D1962 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021E34424549B75004D1962 /* DiscoverView.swift */; };
@@ -16,7 +17,6 @@
 		F034984524B8D266007B1F23 /* VenueRowBigItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034984424B8D266007B1F23 /* VenueRowBigItem.swift */; };
 		F034984724B9BD3B007B1F23 /* VenueRowSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034984624B9BD3B007B1F23 /* VenueRowSmall.swift */; };
 		F034984924B9BD52007B1F23 /* VenueRowSmallItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034984824B9BD52007B1F23 /* VenueRowSmallItem.swift */; };
-		F04508F924D5AFFC000231B4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04508F724D5AD1B000231B4 /* CloudKit.framework */; };
 		F04E2CBD24D5B43F008003AF /* clicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F04E2CBB24D5B43F008003AF /* clicker.xcdatamodeld */; };
 		F04E2CC124D5DC51008003AF /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E2CC024D5DC51008003AF /* PersistenceManager.swift */; };
 		F057B87F24CD7E960020EDF1 /* UIStandards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057B87E24CD7E960020EDF1 /* UIStandards.swift */; };
@@ -62,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F009BBED26231847006C85FA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F021E33B245458B5004D1962 /* venueData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = venueData.json; sourceTree = "<group>"; };
 		F021E33E245465C3004D1962 /* venueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venueData.swift; sourceTree = "<group>"; };
 		F021E34424549B75004D1962 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -110,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04508F924D5AFFC000231B4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +136,7 @@
 			children = (
 				F021E33E245465C3004D1962 /* venueData.swift */,
 				F0270C8E2623122200E434BC /* Venue.swift */,
+				F009BBED26231847006C85FA /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -414,6 +415,7 @@
 				F0C62B5424C0C277005C1FFB /* HomeView.swift in Sources */,
 				F021E34524549B75004D1962 /* DiscoverView.swift in Sources */,
 				F062095E24C0CC1D009DBFA0 /* DetailRow.swift in Sources */,
+				F009BBEE26231847006C85FA /* User.swift in Sources */,
 				F033765224CDC3290015EA83 /* ChangePasswordView.swift in Sources */,
 				F0B70555245352C80072077A /* SceneDelegate.swift in Sources */,
 				F0B70583245357D20072077A /* CircleImage.swift in Sources */,

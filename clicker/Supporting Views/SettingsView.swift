@@ -13,7 +13,7 @@ struct SettingsView: View {
     @State private var password: String = ""
     @State var showingChangePassword = false
     @State private var action: Int? = 0
-    var placeHolderUser = User(favoriteVenues: ["1", "2"], username: "TesterUser")
+    var placeHolderUser = User(username: "Steve")
     
     var body: some View {
        

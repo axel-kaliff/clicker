@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct DetailImage: View {
-    var venue: Venue
+    var venue = Venue()
     var body: some View {
         venue.image
             .resizable()

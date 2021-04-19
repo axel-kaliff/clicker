@@ -3,7 +3,7 @@ import SwiftUI
 import CoreLocation
 
 struct Venue: Hashable, Codable, Identifiable {
-    var id: String
+    public var id: String
     var name: String
     fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
